@@ -15,7 +15,7 @@ const io = new Server(httpServer, {
 });
 
 io.on("connection", (socket) => {
-  console.log("new user connected to our ");
+  console.log("new user connected to our app");
 
   socket.on("disconnect", (socket) => {
     console.log("user disconnect");
